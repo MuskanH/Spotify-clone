@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="spotify.css">
+    <script src="https://kit.fontawesome.com/4c2a64e194.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songList">
+            <h1>Best of NCS- No Copyright Sounds</h1>
+            <div class="songItemContainer">
+        <div class="songItem">
+            <img src="covers0.jpg" alt="1">
+            <span class="songName">Tere Vaaste</span>
+            <span class="songListPlay"><span class="timestamp">05:34 <i id="0" class="fa-regular songItemPlay fa-circle-play icon" style="font-size: 1rem;"></i></span></span>
+        </div>
+
+        <div class="songItem">
+            <img src="covers1.jpg" alt="1">
+            <span class="songName">Kesariya</span>
+            <span class="songListPlay"><span class="timestamp">05:34 <i id="1" class="fa-regular songItemPlay fa-circle-play icon" style="font-size: 1rem;"></i></span></span>
+        </div>
+
+        <div class="songItem">
+            <img src="covers2.jpg" alt="1">
+            <span class="songName">Malang Sajna</span>
+            <span class="songListPlay"><span class="timestamp">05:34 <i id="2" class="fa-regular songItemPlay fa-circle-play icon" style="font-size: 1rem;"></i></span></span>
+        </div>
+
+        <div class="songItem">
+            <img src="covers3.jpg" alt="1">
+            <span class="songName">Fir Aur Kya Chahiye</span>
+            <span class="songListPlay"><span class="timestamp">05:34 <i id="3" class="fa-regular songItemPlay fa-circle-play icon" style="font-size: 1rem;"></i></span></span>
+        </div>
+
+        <div class="songItem">
+            <img src="covers4.jpg" alt="1">
+            <span class="songName">Let me Love you</span>
+            <span class="songListPlay"><span class="timestamp">05:34 <i id="4" class="fa-regular songItemPlay fa-circle-play icon" style="font-size: 1rem;"></i></span></span>
+        </div>
+
+        <div class="songItem">
+            <img src="covers5.jpg" alt="1">
+            <span class="songName">Let me Love you</span>
+            <span class="songListPlay"><span class="timestamp">05:34 <i id="5" class="fa-regular songItemPlay fa-circle-play icon" style="font-size: 1rem;"></i></span></span>
+        </div>
+
+        <div class="songItem">
+            <img src="covers6.jpg" alt="1">
+            <span class="songName">Let me Love you</span>
+            <span class="songListPlay"><span class="timestamp">05:34 <i id="6" class="fa-regular songItemPlay fa-circle-play icon" style="font-size: 1rem;"></i></span></span>
+        </div>
+
+        <div class="songItem">
+            <img src="covers7.jpg" alt="1">
+            <span class="songName">Let me Love you</span>
+            <span class="songListPlay"><span class="timestamp">05:34 <i id="7sss" class="fa-regular songItemPlay fa-circle-play icon" style="font-size: 1rem;"></i></span></span>
+        </div>
+    </div>
+</div>
+        <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="progressBar" value="0" min="0" max="100">
+        <div class="icons">
+            <i class="fa-solid fa-backward icon" id="previous"></i>
+            <i class="fa-regular fa-circle-play icon" id="masterPlay"></i>
+            <i class="fa-solid fa-forward icon" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" width="42px" id="gif"><span id="masterSongName"></span>
+        </div>
+    </div>
+    <script src="spotify.js"></script>
+</body>
+</html>
