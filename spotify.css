@@ -98,3 +98,19 @@ li{
     opacity: 0;
     transition: opacity 0.4s ease-in;
 }
+
+@media (max-width: 600px){
+   .songInfo{
+    position: absolute;
+    left: 35vw;
+    top: 100px;
+   }
+   .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   .songItem{
+    width: 400px;
+   }
+}
